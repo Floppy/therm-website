@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'TinyRegular';
+    font-weight: normal; 
+    font-style: normal; 
+    src: url('/fonts/tiny-webfont.eot');
+    src: url('/fonts/tiny-webfont.eot?iefix') format('embedded-opentype'),
+         url('/fonts/tiny-webfont.woff') format('woff'),
+         url('/fonts/tiny-webfont.ttf') format('truetype'),
+         url('/fonts/tiny-webfont.svg#webfont4WNRZ1OP') format('svg');
+}
+
+@font-face { 
+  font-family: 'IconicStroke'; 
+  font-weight: normal; 
+  font-style: normal; 
+  src: url('/fonts/iconic_stroke.eot'); 
+  src: url('/fonts/iconic_stroke.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/iconic_stroke.woff') format('woff'), 
+       url('/fonts/iconic_stroke.ttf') format('truetype'), 
+       url('/fonts/iconic_stroke.svg#iconic') format('svg'); 
+}
+
+body {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.brand {
+	font-family: TinyRegular;
+}
+
+img {
+  fill: white;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.iconic {
+  margin: 0px 20px;
+  line-height: 0.9em;
+  font-size: 8em;
+  font-family: IconicStroke;
+  vertical-align: top;
+}
+
+p {
+  text-align: justify;
+}
