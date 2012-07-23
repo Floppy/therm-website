@@ -21,8 +21,11 @@
 }
 
 body {
-  padding-top: 10px;
-  padding-bottom: 40px;
+  padding: 10px
+}
+
+.container {
+  padding: 20px;
 }
 
 .sidebar-nav {
@@ -47,6 +50,7 @@ img {
   font-size: 8em;
   font-family: IconicStroke;
   vertical-align: top;
+  color: #235B79;
 }
 
 p {
