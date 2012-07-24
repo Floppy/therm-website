@@ -61,7 +61,7 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   
   .hero-unit {
     padding: 10px;
